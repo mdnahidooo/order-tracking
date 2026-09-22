@@ -1,36 +1,172 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# 📦 Order Tracking Screen
 
-## Getting Started
+A modern, responsive **Order Tracking Screen** built with Next.js. The application provides customers with a clear view of their order status, delivery progress, estimated arrival, product information, and the next action they can take.
 
-First, run the development server:
+The interface is designed with a **mobile-first approach** and supports different delivery situations, including normal delivery, delayed orders, delivered-but-not-received orders, and orders where tracking information is not available yet.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+---
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## 🌐 Live Demo
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+**Live URL:**  
+https://your-order-tracking.vercel.app
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## 📂 GitHub Repository
 
-## Learn More
+**GitHub URL:**  
+https://github.com/yourusername/order-tracking
 
-To learn more about Next.js, take a look at the following resources:
+> Replace the URLs above with your actual deployed URL and GitHub repository URL before submission.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+---
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## ✨ Features
 
-## Deploy on Vercel
+### 🔎 Order Search
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+- Search an order using an Order ID
+- Case-insensitive Order ID matching
+- Press **Enter** to search
+- Shows an error message for an invalid Order ID
+- Provides an example Order ID for quick testing
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+### 📦 Current Order Status
+
+The tracking screen clearly displays:
+
+- Current order status
+- Status message
+- Order ID
+- Estimated delivery information
+
+The status section changes according to the order's current situation.
+
+### 🚚 Delivery Progress
+
+A visual timeline shows the complete delivery journey.
+
+Depending on the order, it can include:
+
+- Order Placed
+- Order Confirmed
+- Processing & Packed
+- Shipped
+- In Transit
+- Out for Delivery
+- Delivered
+
+Completed, current, and upcoming stages have different visual states.
+
+### ⚠️ Delayed Order
+
+Delayed orders clearly communicate:
+
+- Delivery delay status
+- Reason for the delay
+- Original delivery date
+- Updated delivery date
+- Available support action
+
+This helps the customer understand what happened and what they can do next.
+
+### 📬 Delivered but Not Received
+
+For orders marked as delivered but reported as missing, customers can:
+
+- See the delivery dispute status
+- Report a delivery issue
+- Select the type of issue
+- Submit the report
+- Contact support
+
+A confirmation message is shown after submitting a report.
+
+### 🕐 Tracking Not Available Yet
+
+For orders that have not been shipped yet:
+
+- The current preparation status is displayed
+- The reason tracking is unavailable is explained
+- The estimated delivery period is shown
+- Upcoming delivery stages remain visible
+- Customers can contact support if needed
+
+The application avoids showing an empty or broken tracking screen.
+
+### 💬 Contact Support
+
+A dedicated support modal provides available support options such as:
+
+- Live Chat
+- Call Support
+
+### 🚨 Report Delivery Issue
+
+Customers can report different delivery problems:
+
+- Package was not received
+- Package was left in the wrong place
+- Package arrived damaged
+
+After submitting an issue, a success confirmation is displayed.
+
+### ⏳ Loading State
+
+A dedicated loading screen is shown while the order data is being loaded.
+
+### ❌ Error State
+
+A clear error screen is displayed if the order data cannot be loaded.
+
+### 📱 Responsive Design
+
+The interface is designed primarily for mobile devices and works well across common mobile widths:
+
+- 360px
+- 375px
+- 390px
+- 414px
+- 430px
+
+The layout also adapts to larger screens.
+
+---
+
+## 🎯 UX Approach
+
+The main information hierarchy follows:
+
+> **What's happening → When can I expect it → What can I do next**
+
+The design focuses on making the most important delivery information immediately understandable.
+
+### Main Priorities
+
+- Clear delivery status
+- Estimated arrival
+- Visual progress
+- Product information
+- Delivery details
+- Clear next action
+- Simple navigation
+- Helpful loading and error states
+
+---
+
+## 🧪 Test Order IDs
+
+The project includes mock order data for testing different delivery scenarios.
+
+| Order ID | Scenario | Status |
+|---|---|---|
+| `ORD-94821` | Normal delivery | In Transit |
+| `ORD-88231` | Delayed order | Delivery Delayed |
+| `ORD-71204` | Delivered but not received | Marked as Delivered |
+| `ORD-55412` | Tracking unavailable | Preparing Order |
+
+### Invalid Order
+
+You can also test an invalid Order ID:
+
+```text
+ORD-12345
