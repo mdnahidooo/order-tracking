@@ -1,0 +1,153 @@
+{
+  "orders": [
+    {
+      "id": "ORD-94821",
+      "state": "normal",
+      "status": "shipped",
+      "statusLabel": "In Transit",
+      "statusMessage": "Your package is on the way with FedEx.",
+      "estimatedDelivery": {
+        "date": "Thursday, Oct 1",
+        "time": "By 7:00 PM"
+      },
+      "product": {
+        "name": "Wireless Noise-Canceling Headphones",
+        "category": "Electronics",
+        "quantity": 1,
+        "price": 299.99,
+        "image": "https://images.unsplash.com/photo-1505740420928-5e560c06d30e?auto=format&fit=crop&w=300&q=80"
+      },
+      "shippingAddress": {
+        "name": "Alex Johnson",
+        "address": "123 Maple Street, Apt 4B",
+        "city": "New York, NY",
+        "postalCode": "10001"
+      },
+      "shippingMethod": "Standard Express Shipping",
+      "carrier": "FedEx",
+      "trackingNumber": "FX-998234109",
+      "timeline": [
+        { "label": "Order Placed", "date": "Sep 25", "completed": true },
+        { "label": "Processing & Packed", "date": "Sep 26", "completed": true },
+        { "label": "Shipped from Facility", "date": "Sep 27", "completed": true, "current": true },
+        { "label": "Out for Delivery", "date": "Pending", "completed": false },
+        { "label": "Delivered", "date": "Pending", "completed": false }
+      ],
+      "actions": {
+        "canContactSupport": true,
+        "canReportIssue": false
+      }
+    },
+    {
+      "id": "ORD-88231",
+      "state": "delayed",
+      "status": "delayed",
+      "statusLabel": "Delivery Delayed",
+      "statusMessage": "Your shipment has encountered a transit delay due to severe weather conditions.",
+      "delayReason": "Regional weather disruption / carrier hub backlog",
+      "estimatedDelivery": {
+        "originalDate": "Sep 29",
+        "updatedDate": "Friday, Oct 3"
+      },
+      "product": {
+        "name": "Ergonomic Office Chair",
+        "category": "Furniture",
+        "quantity": 1,
+        "price": 189.50,
+        "image": "https://images.unsplash.com/photo-1580481077494-e3299acae592?auto=format&fit=crop&w=300&q=80"
+      },
+      "shippingAddress": {
+        "name": "Alex Johnson",
+        "address": "123 Maple Street, Apt 4B",
+        "city": "New York, NY",
+        "postalCode": "10001"
+      },
+      "shippingMethod": "Freight Ground",
+      "carrier": "UPS",
+      "trackingNumber": "UPS-77382911",
+      "timeline": [
+        { "label": "Order Placed", "date": "Sep 22", "completed": true },
+        { "label": "Shipped", "date": "Sep 24", "completed": true },
+        { "label": "In Transit (Delayed)", "date": "Sep 26", "completed": true, "current": true },
+        { "label": "Out for Delivery", "date": "Pending", "completed": false },
+        { "label": "Delivered", "date": "Pending", "completed": false }
+      ],
+      "actions": {
+        "canContactSupport": true,
+        "canReportIssue": false
+      }
+    },
+    {
+      "id": "ORD-71204",
+      "state": "delivered_not_received",
+      "status": "delivered_not_received",
+      "statusLabel": "Marked as Delivered",
+      "statusMessage": "System records show your package was delivered, but you reported not receiving it.",
+      "estimatedDelivery": {
+        "date": "Delivered Yesterday at 2:15 PM"
+      },
+      "product": {
+        "name": "Mechanical Gaming Keyboard",
+        "category": "Accessories",
+        "quantity": 1,
+        "price": 129.00,
+        "image": "https://images.unsplash.com/photo-1587829741301-dc798b83add3?auto=format&fit=crop&w=300&q=80"
+      },
+      "shippingAddress": {
+        "name": "Alex Johnson",
+        "address": "123 Maple Street, Apt 4B",
+        "city": "New York, NY",
+        "postalCode": "10001"
+      },
+      "shippingMethod": "Priority Delivery",
+      "carrier": "USPS",
+      "trackingNumber": "USPS-9928173",
+      "timeline": [
+        { "label": "Order Placed", "date": "Sep 20", "completed": true },
+        { "label": "Shipped", "date": "Sep 21", "completed": true },
+        { "label": "Out for Delivery", "date": "Sep 23", "completed": true },
+        { "label": "Delivered (Disputed)", "date": "Yesterday", "completed": true, "current": true }
+      ],
+      "actions": {
+        "canContactSupport": true,
+        "canReportIssue": true
+      }
+    },
+    {
+      "id": "ORD-55412",
+      "state": "tracking_unavailable",
+      "status": "processing",
+      "statusLabel": "Preparing Order",
+      "statusMessage": "Your order has been received and is being prepared. Tracking details will appear once shipped.",
+      "estimatedDelivery": {
+        "date": "Estimated: Next Week"
+      },
+      "product": {
+        "name": "Smart Fitness Watch",
+        "category": "Wearables",
+        "quantity": 1,
+        "price": 199.00,
+        "image": "https://images.unsplash.com/photo-1523275335684-37898b6baf30?auto=format&fit=crop&w=300&q=80"
+      },
+      "shippingAddress": {
+        "name": "Alex Johnson",
+        "address": "123 Maple Street, Apt 4B",
+        "city": "New York, NY",
+        "postalCode": "10001"
+      },
+      "shippingMethod": "Standard Shipping",
+      "carrier": "Pending Assignment",
+      "trackingNumber": null,
+      "timeline": [
+        { "label": "Order Confirmed", "date": "Today", "completed": true, "current": true },
+        { "label": "Warehouse Packing", "date": "Pending", "completed": false },
+        { "label": "Shipped", "date": "Pending", "completed": false },
+        { "label": "Delivered", "date": "Pending", "completed": false }
+      ],
+      "actions": {
+        "canContactSupport": true,
+        "canReportIssue": false
+      }
+    }
+  ]
+}
