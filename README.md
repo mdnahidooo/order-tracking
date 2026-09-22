@@ -170,3 +170,84 @@ You can also test an invalid Order ID:
 
 ```text
 ORD-12345
+
+## 🛠️ Technologies
+
+- **Next.js**
+- **JavaScript**
+- **HeroUI**
+- **React Icons**
+
+---
+
+## 📁 Project Structure
+
+order-tracking/
+├── app/
+│   ├── layout.js
+│   ├── page.js
+│   └── globals.css
+│
+├── components/
+│   ├── order/
+│   │   ├── OrderSearch.jsx
+│   │   ├── OrderTracking.jsx
+│   │   ├── StatusHero.jsx
+│   │   ├── DeliveryTimeline.jsx
+│   │   ├── OrderSummary.jsx
+│   │   ├── DeliveryDetails.jsx
+│   │   └── NextStep.jsx
+│   │
+│   └── ui/
+│       ├── LoadingState.jsx
+│       ├── ErrorState.jsx
+│       ├── SupportModal.jsx
+│       ├── ReportIssueModal.jsx
+│       └── SuccessMessage.jsx
+│
+├── public/
+│   └── orders.json
+│
+├── package.json
+├── next.config.mjs
+├── jsconfig.json
+└── README.md
+
+---
+
+## 🚀 Installation
+1. Clone the Repository
+git clone https://github.com/yourusername/order-tracking.git
+2. Go to the Project Folder
+cd order-tracking
+3. Install Dependencies
+npm install
+4. Start the Development Server
+npm run dev
+
+Open: http://localhost:3000
+
+###🏗️ Production
+
+Build the project:
+-npm run build
+
+Start the production server:
+-npm start
+
+###🌍 Deployment
+
+The project can be deployed using Vercel:
+
+Push the project to GitHub.
+Import the repository into Vercel.
+Deploy the project.
+Add the deployed URL to the README.
+
+
+## 👨‍💻 Author
+
+Md. Nahidul Islam Nahid
+Full Stack Developer
+
+---
