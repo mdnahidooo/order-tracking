@@ -16,8 +16,6 @@ https://order-tracking-mauve-six.vercel.app/
 **GitHub URL:**  
 https://github.com/mdnahidooo/order-tracking
 
-> Replace the URLs above with your actual deployed URL and GitHub repository URL before submission.
-
 ---
 
 ## ✨ Features
@@ -181,41 +179,6 @@ ORD-12345
 
 ---
 
-## 📁 Project Structure
-
-order-tracking/
-├── app/
-│   ├── layout.js
-│   ├── page.js
-│   └── globals.css
-│
-├── components/
-│   ├── order/
-│   │   ├── OrderSearch.jsx
-│   │   ├── OrderTracking.jsx
-│   │   ├── StatusHero.jsx
-│   │   ├── DeliveryTimeline.jsx
-│   │   ├── OrderSummary.jsx
-│   │   ├── DeliveryDetails.jsx
-│   │   └── NextStep.jsx
-│   │
-│   └── ui/
-│       ├── LoadingState.jsx
-│       ├── ErrorState.jsx
-│       ├── SupportModal.jsx
-│       ├── ReportIssueModal.jsx
-│       └── SuccessMessage.jsx
-│
-├── public/
-│   └── orders.json
-│
-├── package.json
-├── next.config.mjs
-├── jsconfig.json
-└── README.md
-
----
-
 ## 🚀 Installation
 - 1. Clone the Repository
 > https://github.com/mdnahidooo/order-tracking
@@ -253,6 +216,6 @@ Start the production server:
 ## 👨‍💻 Author
 
 Md. Nahidul Islam Nahid
-Full Stack Developer
+- Full Stack Developer
 
 ---
