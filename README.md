@@ -9,12 +9,12 @@ The interface is designed with a **mobile-first approach** and supports differen
 ## 🌐 Live Demo
 
 **Live URL:**  
-https://your-order-tracking.vercel.app
+https://order-tracking-mauve-six.vercel.app/
 
 ## 📂 GitHub Repository
 
 **GitHub URL:**  
-https://github.com/yourusername/order-tracking
+https://github.com/mdnahidooo/order-tracking
 
 > Replace the URLs above with your actual deployed URL and GitHub repository URL before submission.
 
@@ -168,8 +168,9 @@ The project includes mock order data for testing different delivery scenarios.
 
 You can also test an invalid Order ID:
 
-```text
 ORD-12345
+
+---
 
 ## 🛠️ Technologies
 
@@ -216,18 +217,23 @@ order-tracking/
 ---
 
 ## 🚀 Installation
-1. Clone the Repository
-git clone https://github.com/yourusername/order-tracking.git
-2. Go to the Project Folder
-cd order-tracking
-3. Install Dependencies
-npm install
-4. Start the Development Server
-npm run dev
+- 1. Clone the Repository
+> https://github.com/mdnahidooo/order-tracking
 
-Open: http://localhost:3000
+- 2. Go to the Project Folder
+> cd order-tracking
 
-###🏗️ Production
+- 3. Install Dependencies
+> npm install
+
+- 4. Start the Development Server
+> npm run dev
+
+>Open: http://localhost:3000
+
+---
+
+## 🏗️ Production
 
 Build the project:
 -npm run build
@@ -235,14 +241,13 @@ Build the project:
 Start the production server:
 -npm start
 
-###🌍 Deployment
+### 🌍 Deployment
 
-The project can be deployed using Vercel:
-
-Push the project to GitHub.
-Import the repository into Vercel.
-Deploy the project.
-Add the deployed URL to the README.
+- The project can be deployed using Vercel:
+- Push the project to GitHub.
+- Import the repository into Vercel.
+- Deploy the project.
+- Add the deployed URL to the README.
 
 
 ## 👨‍💻 Author
